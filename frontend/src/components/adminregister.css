@@ -1,0 +1,74 @@
+/* AdminRegister.css */
+
+.admin-register-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* Optional background color */
+  }
+  
+  .cat-image {
+    padding: 20px;
+    border: 4px solid #ffbf00; /* Amber color */
+    border-radius: 10px;
+    width: 370px; /* Fixed width for the image */
+  }
+  
+  .form-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff; /* Blue background */
+  }
+  
+  .admin-register-form {
+    width: 100%;
+    max-width: 400px; /* Maximum width for the form */
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .form-input:focus {
+    border-color: #01162c; /* Focus border color */
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #1f3e11; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #274304; /* Darker blue on hover */
+  }
